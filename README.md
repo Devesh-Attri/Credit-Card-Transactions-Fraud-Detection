@@ -1,4 +1,4 @@
-readme_content = """# Fraud Detection Model
+# Fraud Detection Model
 
 ## 📌 Overview
 This project implements a **fraud detection system** using **machine learning** to classify transactions as **fraudulent or legitimate**. The model is trained on a dataset containing transaction details such as amount, user ID, merchant information, timestamps, and other relevant attributes.
@@ -88,9 +88,3 @@ predictions = loaded_model.predict(X_test)
 This fraud detection model efficiently identifies fraudulent transactions while keeping **false positives low**. Further improvements can be made using **deep learning** or **anomaly detection techniques**.
 
 📢 **Feel free to contribute or suggest enhancements!** 🚀"""
-
-# Save the README file
-with open("README.md", "w", encoding="utf-8") as f:
-    f.write(readme_content)
-
-print("README.md file has been created successfully!")
