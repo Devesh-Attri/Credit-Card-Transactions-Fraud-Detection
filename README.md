@@ -10,6 +10,12 @@ This project implements a **fraud detection system** using **machine learning** 
 - **Performance Metrics**: Evaluates model accuracy, precision, recall, and F1-score.
 - **Misclassification Analysis**: Identifies misclassified transactions for further investigation.
 
+## Download the Dataset
+You can download the dataset from Kaggle using the below given link:
+```bash
+kaggle.com/datasets/kartik2112/fraud-detection?resource=download
+```
+
 ## 🗂 Dataset Description
 The dataset contains the following columns:
 - `trans_date_trans_time`: Timestamp of the transaction.
